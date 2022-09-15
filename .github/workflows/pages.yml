@@ -1,0 +1,40 @@
+name: Pages
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      
+      - name: Setup Node enviorment
+        uses: actions/setup-node@v3.4.1
+        
+      - name: Setup Pages
+        uses: actions/configure-pages@v2
+        
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2.2.2
+        
+      - name: Build with Astro
+        run: |
+          pnpm install
+          pnpm build
+          
+      - name: Upload artifacts
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: "./dist"
+          
+      - name: Deploy to pages
+        id: deployment
+        uses: actions/deploy-pages@v1
