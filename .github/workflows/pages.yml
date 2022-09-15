@@ -24,6 +24,8 @@ jobs:
         
       - name: Setup pnpm
         uses: pnpm/action-setup@v2.2.2
+        with:
+          verion: latest
         
       - name: Build with Astro
         run: |
