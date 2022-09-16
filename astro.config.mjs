@@ -7,5 +7,4 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [svelte(), tailwind()],
   site: "https://violeth.tech",
-  base: "/thegreatviolet"
 });
