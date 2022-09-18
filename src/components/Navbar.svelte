@@ -1,5 +1,5 @@
 <div
-  class="h-12 w-full p-2
+  class="h-12 w-full p-2 pl-4
   flex flex-row align-middle
 border-gray-900 border-b-2"
 >
