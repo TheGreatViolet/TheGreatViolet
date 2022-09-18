@@ -1,0 +1,30 @@
+---
+import PageLayout from "../components/PageLayout.astro";
+---
+
+<html>
+  <head>
+    <title>About This Site - Violet's Page</title>
+  </head>
+
+  <PageLayout>
+    <h1 class="text-gray-200 text-5xl">About this site</h1>
+    <h2 class="text-gray-200 text-3xl">Made with &lt;3 by Violet</h2>
+
+    <p class="text-gray-200 text-xl mt-4">
+      Built using the <a href="https://astro.build/" class="link-item">Astro</a>
+      framework with <a href="https://svelte.dev/" class="link-item">Svelte</a>
+      and <a href="https://tailwindcss.com/" class="link-item">Tailwind</a>
+      on the frontend. <br /><br />
+      Hosted on <a href="https://pages.github.com/" class="link-item"
+        >GitHub Pages</a
+      >.
+    </p>
+  </PageLayout>
+
+  <style>
+    .link-item {
+      @apply text-gray-200 hover:text-gray-400 ease-in-out duration-200 underline;
+    }
+  </style>
+</html>
