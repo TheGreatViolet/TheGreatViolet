@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/svelte': 1.0.0
+  '@astrojs/svelte': 1.0.1
   '@astrojs/tailwind': 2.0.1
   astro: 1.3.1
   svelte: 3.50.1
@@ -13,7 +13,7 @@ dependencies:
   tailwindcss: 3.1.8_postcss@8.4.16
 
 devDependencies:
-  '@astrojs/svelte': 1.0.0_7nptawndwjgnrkdswpkvvp3j5e
+  '@astrojs/svelte': 1.0.1_qylg25bldy3chnehqahsds6dre
   svelte: 3.50.1
 
 packages:
@@ -101,18 +101,17 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/svelte/1.0.0_7nptawndwjgnrkdswpkvvp3j5e:
-    resolution: {integrity: sha512-WmvcEe86j/3wL2xWURo1Kxtgh+s0CVys2j7xQboHr0ZeH9TBlkQuacAT8mWccD1/MikhDVqL/1hnF/n+vRKuGw==}
+  /@astrojs/svelte/1.0.1_qylg25bldy3chnehqahsds6dre:
+    resolution: {integrity: sha512-br0yikJvfYuf12aN1XoPuog141Dz/DWC2P+OZrgfjkNpqFBUnDqwIcJPFwFJ7Cwfg3jjzNs94+P/QhaihryGnA==}
     engines: {node: ^14.18.0 || >=16.12.0}
     peerDependencies:
       svelte: ^3.46.4
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 1.0.5_svelte@3.50.1+vite@3.1.0
+      '@sveltejs/vite-plugin-svelte': 1.0.5_svelte@3.50.1+vite@3.1.3
       postcss-load-config: 3.1.4_postcss@8.4.16
       svelte: 3.50.1
       svelte-preprocess: 4.10.7_omsha3auhgkb67r7qboieuwvsq
       svelte2tsx: 0.5.17_6e3pjrcshbx4cnbfcrcpjw3oxi
-      vite: 3.1.0
     transitivePeerDependencies:
       - '@babel/core'
       - coffeescript
@@ -125,9 +124,9 @@ packages:
       - stylus
       - sugarss
       - supports-color
-      - terser
       - ts-node
       - typescript
+      - vite
     dev: true
 
   /@astrojs/tailwind/2.0.1_tailwindcss@3.1.8:
@@ -502,7 +501,7 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/1.0.5_svelte@3.50.1+vite@3.1.0:
+  /@sveltejs/vite-plugin-svelte/1.0.5_svelte@3.50.1+vite@3.1.3:
     resolution: {integrity: sha512-CmSdSow0Dr5ua1A11BQMtreWnE0JZmkVIcRU/yG3PKbycKUpXjNdgYTWFSbStLB0vdlGnBbm2+Y4sBVj+C+TIw==}
     engines: {node: ^14.18.0 || >= 16}
     peerDependencies:
@@ -520,7 +519,7 @@ packages:
       magic-string: 0.26.3
       svelte: 3.50.1
       svelte-hmr: 0.14.12_svelte@3.50.1
-      vite: 3.1.0
+      vite: 3.1.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3854,33 +3853,6 @@ packages:
       vfile-message: 3.1.2
     dev: false
 
-  /vite/3.1.0:
-    resolution: {integrity: sha512-YBg3dUicDpDWFCGttmvMbVyS9ydjntwEjwXRj2KBFwSB8SxmGcudo1yb8FW5+M/G86aS8x828ujnzUVdsLjs9g==}
-    engines: {node: ^14.18.0 || >=16.0.0}
-    hasBin: true
-    peerDependencies:
-      less: '*'
-      sass: '*'
-      stylus: '*'
-      terser: ^5.4.0
-    peerDependenciesMeta:
-      less:
-        optional: true
-      sass:
-        optional: true
-      stylus:
-        optional: true
-      terser:
-        optional: true
-    dependencies:
-      esbuild: 0.15.7
-      postcss: 8.4.16
-      resolve: 1.22.1
-      rollup: 2.78.1
-    optionalDependencies:
-      fsevents: 2.3.2
-    dev: true
-
   /vite/3.1.3:
     resolution: {integrity: sha512-/3XWiktaopByM5bd8dqvHxRt5EEgRikevnnrpND0gRfNkrMrPaGGexhtLCzv15RcCMtV2CLw+BPas8YFeSG0KA==}
     engines: {node: ^14.18.0 || >=16.0.0}
@@ -3906,7 +3878,6 @@ packages:
       rollup: 2.78.1
     optionalDependencies:
       fsevents: 2.3.2
-    dev: false
 
   /vscode-css-languageservice/6.1.1:
     resolution: {integrity: sha512-7d2NCq2plT0njAKmGZ11uof95y2fwbgq8QuToE3kX9uYQfVmejHX2/lFGKbK5AV5+Ja0L80UZoU0QspwqMKMHA==}
