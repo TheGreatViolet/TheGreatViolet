@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/svelte': 1.0.1
+  '@astrojs/svelte': 1.0.2
   '@astrojs/tailwind': 2.1.1
   astro: 1.6.2
   svelte: 3.52.0
@@ -13,7 +13,7 @@ dependencies:
   tailwindcss: 3.2.1_postcss@8.4.18
 
 devDependencies:
-  '@astrojs/svelte': 1.0.1_tncgju5hqi75asqiu7j2qfsq6a
+  '@astrojs/svelte': 1.0.2_tncgju5hqi75asqiu7j2qfsq6a
   svelte: 3.52.0
 
 packages:
@@ -103,8 +103,8 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/svelte/1.0.1_tncgju5hqi75asqiu7j2qfsq6a:
-    resolution: {integrity: sha512-br0yikJvfYuf12aN1XoPuog141Dz/DWC2P+OZrgfjkNpqFBUnDqwIcJPFwFJ7Cwfg3jjzNs94+P/QhaihryGnA==}
+  /@astrojs/svelte/1.0.2_tncgju5hqi75asqiu7j2qfsq6a:
+    resolution: {integrity: sha512-cC3Pn475mOJdDM5IKMJ75hlah7jTWdVPkD7gUx+7ouJ/V9Q8H5OTmne+xG8zk2MquAHBL/ksmUS2pSzI9ByZkw==}
     engines: {node: ^14.18.0 || >=16.12.0}
     peerDependencies:
       svelte: ^3.46.4
