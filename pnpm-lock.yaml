@@ -5,12 +5,12 @@ specifiers:
   '@astrojs/tailwind': 2.1.1
   astro: 1.6.5
   svelte: 3.52.0
-  tailwindcss: 3.2.1
+  tailwindcss: 3.2.2
 
 dependencies:
-  '@astrojs/tailwind': 2.1.1_tailwindcss@3.2.1
+  '@astrojs/tailwind': 2.1.1_tailwindcss@3.2.2
   astro: 1.6.5
-  tailwindcss: 3.2.1_postcss@8.4.18
+  tailwindcss: 3.2.2_postcss@8.4.18
 
 devDependencies:
   '@astrojs/svelte': 1.0.2_tncgju5hqi75asqiu7j2qfsq6a
@@ -131,7 +131,7 @@ packages:
       - vite
     dev: true
 
-  /@astrojs/tailwind/2.1.1_tailwindcss@3.2.1:
+  /@astrojs/tailwind/2.1.1_tailwindcss@3.2.2:
     resolution: {integrity: sha512-Il6FODtu4AlwadleJS3VWmAOOmeCDKvAo3iof46p4iHtdeWLClyuH9kJXWrlzCS+QOfBSIfXxvwPJ3cbK5COlA==}
     peerDependencies:
       tailwindcss: ^3.0.24
@@ -139,7 +139,7 @@ packages:
       '@proload/core': 0.3.3
       autoprefixer: 10.4.11_postcss@8.4.18
       postcss: 8.4.18
-      tailwindcss: 3.2.1_postcss@8.4.18
+      tailwindcss: 3.2.2_postcss@8.4.18
     dev: false
 
   /@astrojs/telemetry/1.0.1:
@@ -3648,8 +3648,8 @@ packages:
       tslib: 2.4.0
     dev: false
 
-  /tailwindcss/3.2.1_postcss@8.4.18:
-    resolution: {integrity: sha512-Uw+GVSxp5CM48krnjHObqoOwlCt5Qo6nw1jlCRwfGy68dSYb/LwS9ZFidYGRiM+w6rMawkZiu1mEMAsHYAfoLg==}
+  /tailwindcss/3.2.2_postcss@8.4.18:
+    resolution: {integrity: sha512-c2GtSdqg+harR4QeoTmex0Ngfg8IIHNeLQH5yr2B9uZbZR1Xt1rYbjWOWTcj3YLTZhrmZnPowoQDbSRFyZHQ5Q==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
