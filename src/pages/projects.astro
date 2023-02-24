@@ -1,0 +1,35 @@
+---
+import Card from "../components/Card.svelte";
+import PageLayout from "../components/PageLayout.astro";
+
+import blockjsimage from "../images/cards/blockjs.png";
+import personalsiteimage from "../images/cards/personalsite.png";
+---
+
+<html>
+  <head>
+    <title>My Projects - Violet's Site</title>
+  </head>
+
+  <PageLayout>
+    <div class="w-full h-full p-4 flex flex-row flex-wrap justify-center">
+      <Card
+        title="BlockJS"
+        description="Use JavaScript to interact with your Minecraft world."
+        link="https://github.com/Block-JS/blockjs"
+        image={blockjsimage}
+        alt="Image of BlockJS source code"
+      />
+
+      <Card
+        title="Violet's Site"
+        description="This site! Built with Astro and Svelte."
+        link="/"
+        image={personalsiteimage}
+        alt="Image of my personal site home page"
+      />
+    </div>
+  </PageLayout>
+
+
+</html>

@@ -1,9 +1,10 @@
 <div
   class="h-12 w-full p-2 pl-4
   flex flex-row align-middle
-border-gray-900 border-b-2"
+border-gray-900 border-b-2 space-x-8"
 >
   <a href="/"><p class="navbar-item">Home</p></a>
+  <a href="projects"><p class="navbar-item">My Projects</p></a>
 </div>
 
 <style>
