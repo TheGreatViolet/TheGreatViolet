@@ -6,5 +6,5 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   integrations: [svelte(), tailwind()],
-  site: "https://thegreatviolet.github.io/thegreatviolet",
+  site: "https://thegreatviolet.github.io/",
 });
