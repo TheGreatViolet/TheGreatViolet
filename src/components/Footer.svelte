@@ -6,7 +6,7 @@
     Source Code
   </a>
 
-  <a href="/aboutsite" class="footer-item"> About This Site </a>
+  <a href="/TheGreatViolet/aboutsite" class="footer-item"> About This Site </a>
 </div>
 
 <style>
